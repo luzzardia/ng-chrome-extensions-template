@@ -1,14 +1,14 @@
 function AppStart() {
-  const angularStart = '<div id="app-roll20-rolls" class="mat-typography">' +
-      '<app-root-roll20-rolls id="app-root-roll20-rolls"></app-root-roll20-rolls>' +
+  const angularStart = '<div id="app-chrome-extension-template" class="mat-typography">' +
+      '<app-root-roll20-rolls id="app-chrome-extension-template"></app-root-roll20-rolls>' +
     '</div>';
-  if (!document.getElementById('app-root-roll20-rolls')) {
+  if (!document.getElementById('app-chrome-extension-template')) {
     document.body.insertAdjacentHTML('afterbegin', angularStart);
   }
   const head  = document.getElementsByTagName('head')[0];
-  if (!document.getElementById('app-roll20-roboto')) {
+  if (!document.getElementById('app-chrome-extension-template-fonts-roboto')) {
     const roboto  = document.createElement('link');
-    roboto.id   = 'app-roll20-roboto';
+    roboto.id   = 'app-chrome-extension-template-fonts-roboto';
     roboto.rel  = 'stylesheet';
     roboto.type = 'text/css';
     roboto.href = 'https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap';
@@ -16,9 +16,9 @@ function AppStart() {
     head.appendChild(roboto);
   }
 
-  if (!document.getElementById('app-roll20-icon')) {
+  if (!document.getElementById('app-chrome-extension-template-fonts-icon')) {
     const icon  = document.createElement('link');
-    icon.id   = 'app-roll20-icon';
+    icon.id   = 'app-chrome-extension-template-fonts-icon';
     icon.rel  = 'stylesheet';
     icon.type = 'text/css';
     icon.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
