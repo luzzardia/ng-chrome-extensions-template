@@ -1,4 +1,4 @@
-function Roll20AppStart() {
+function AppStart() {
   const angularStart = '<div id="app-roll20-rolls" class="mat-typography">' +
       '<app-root-roll20-rolls id="app-root-roll20-rolls"></app-root-roll20-rolls>' +
     '</div>';
@@ -28,4 +28,4 @@ function Roll20AppStart() {
 
 }
 
-Roll20AppStart();
+AppStart();
