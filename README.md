@@ -1,4 +1,8 @@
-# Roll20rolls
+# Angular - Chrome Extensions Template
+A basic code structure to load angular project in a chrome extension.
+
+
+## Angular Development
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
