@@ -1,6 +1,6 @@
 function AppStart() {
   const angularStart = '<div id="app-chrome-extension-template" class="mat-typography">' +
-      '<app-root-roll20-rolls id="app-chrome-extension-template"></app-root-roll20-rolls>' +
+      '<app-chrome-extension-template></app-chrome-extension-template>' +
     '</div>';
   if (!document.getElementById('app-chrome-extension-template')) {
     document.body.insertAdjacentHTML('afterbegin', angularStart);
