@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root-roll20-rolls',
+  selector: 'app-chrome-extension-template',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'roll20rolls';
+  title = 'app-chrome-extension-template-fonts-roboto';
   elements: Array<number> = new Array(50);
 
   constructor() {
