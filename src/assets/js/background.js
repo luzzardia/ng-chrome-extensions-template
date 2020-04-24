@@ -1,4 +1,4 @@
-function Roll20AppStartBackground() {
+function AppStartBackground() {
 
   const scripts = [
     "assets/js/app-start.js",
@@ -27,4 +27,4 @@ function Roll20AppStartBackground() {
 
 }
 
-Roll20AppStartBackground();
+AppStartBackground();
