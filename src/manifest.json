@@ -1,7 +1,7 @@
 {
-  "name": "roll20 Rolls Extension",
+  "name": "Chrome Extension Template",
   "version": "0.0.1",
-  "description": "roll20 Rolls bar",
+  "description": "Chrome Extension Template",
   "manifest_version": 2,
   "offline_enabled": true,
   "permissions": [
@@ -11,7 +11,7 @@
     "https://*/*"
   ],
   "browser_action": {
-    "default_title": "Inject!"
+    "default_title": "Chrome Extension Template"
   },
   "file_system_provider_capabilities": {
     "configurable": true,
