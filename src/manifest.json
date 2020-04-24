@@ -1,0 +1,53 @@
+{
+  "name": "roll20 Rolls Extension",
+  "version": "0.0.1",
+  "description": "roll20 Rolls bar",
+  "manifest_version": 2,
+  "offline_enabled": true,
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Inject!"
+  },
+  "file_system_provider_capabilities": {
+    "configurable": true,
+    "multiple_mounts": true,
+    "source": "network"
+  },
+  "background": {
+    "scripts": [
+      "assets/js/background.js"
+    ],
+    "persistent": true
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'; font-src 'self'",
+  "web_accessible_resources": [
+    "assets/js/app-start.js",
+
+    "runtime-es2015.js",
+    "runtime-es5.js",
+    "polyfills-es5.js",
+    "polyfills-es2015.js",
+    "styles-es2015.js",
+    "styles-es5.js",
+    "vendor-es2015.js",
+    "vendor-es5.js",
+    "main-es2015.js",
+    "main-es5.js",
+
+    "runtime-es2015.js.map",
+    "runtime-es5.js.map",
+    "polyfills-es5.js.map",
+    "polyfills-es2015.js.map",
+    "styles-es2015.js.map",
+    "styles-es5.js.map",
+    "vendor-es2015.js.map",
+    "vendor-es5.js.map",
+    "main-es2015.js.map",
+    "main-es5.js.map"
+  ]
+}
