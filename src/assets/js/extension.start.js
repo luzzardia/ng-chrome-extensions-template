@@ -1,4 +1,4 @@
-function AppStart() {
+function ExtensionStart() {
   const angularStart = '<div id="app-chrome-extension-template" class="mat-typography">' +
       '<app-chrome-extension-template></app-chrome-extension-template>' +
     '</div>';
@@ -28,4 +28,4 @@ function AppStart() {
 
 }
 
-AppStart();
+ExtensionStart();

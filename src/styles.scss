@@ -6,17 +6,3 @@ $barBackground:#fff;
 @function rem($size) {
   @return $size / $materialFontSize * 1rem;
 }
-
-#app-roll20-rolls {
-  background-color: $barBackground;
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  max-width: 100%;
-  width: 100%;
-  min-height: rem(32px);
-  max-height: rem(69px);
-  display: block;
-  clear: both;
-  box-sizing: border-box;
-  padding: rem(5px) 0 rem(5px) 0;
-}

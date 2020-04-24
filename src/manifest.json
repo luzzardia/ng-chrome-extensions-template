@@ -26,28 +26,18 @@
   },
   "content_security_policy": "script-src 'self'; object-src 'self'; font-src 'self'",
   "web_accessible_resources": [
-    "assets/js/app-start.js",
+    "assets/js/extension.start.js",
 
-    "runtime-es2015.js",
-    "runtime-es5.js",
-    "polyfills-es5.js",
-    "polyfills-es2015.js",
-    "styles-es2015.js",
-    "styles-es5.js",
-    "vendor-es2015.js",
-    "vendor-es5.js",
-    "main-es2015.js",
-    "main-es5.js",
+    "runtime.js",
+    "polyfills.js",
+    "styles.js",
+    "vendor.js",
+    "main.js",
 
-    "runtime-es2015.js.map",
-    "runtime-es5.js.map",
-    "polyfills-es5.js.map",
-    "polyfills-es2015.js.map",
-    "styles-es2015.js.map",
-    "styles-es5.js.map",
-    "vendor-es2015.js.map",
-    "vendor-es5.js.map",
-    "main-es2015.js.map",
-    "main-es5.js.map"
+    "runtime.js.map",
+    "polyfills.js.map",
+    "styles.js.map",
+    "vendor.js.map",
+    "main.js.map"
   ]
 }

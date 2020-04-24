@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'app-chrome-extension-template-fonts-roboto';
+  title = 'app-chrome-extension-template';
   elements: Array<number> = new Array(50);
 
   constructor() {

@@ -1,14 +1,17 @@
 {
-  "name": "roll20rolls",
+  "name": "ng-chrome-extension-template",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "compile-extension": "./compile-extension.sh",
+    "postbuild": "npm run compile-extension"
   },
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.3",

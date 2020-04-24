@@ -1,17 +1,12 @@
 function AppStartBackground() {
 
   const scripts = [
-    "assets/js/app-start.js",
-    "runtime-es2015.js",
-    // "runtime-es5.js",
-    // "polyfills-es5.js",
-    "polyfills-es2015.js",
-    "styles-es2015.js",
-    // "styles-es5.js",
-    "vendor-es2015.js",
-    // "vendor-es5.js",
-    "main-es2015.js",
-    // "main-es5.js"
+    "assets/js/extension.start.js",
+    "runtime.js",
+    "polyfills.js",
+    "styles.js",
+    "vendor.js",
+    "main.js",
   ];
 
   chrome.browserAction.onClicked.addListener((function (tab) {
