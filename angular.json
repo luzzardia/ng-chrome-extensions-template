@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "roll20rolls": {
+    "chrome-extension-template": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/roll20rolls",
+            "outputPath": "dist/chrome-extension-template",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -70,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "roll20rolls:build"
+            "browserTarget": "chrome-extension-template:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "roll20rolls:build:production"
+              "browserTarget": "chrome-extension-template:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "roll20rolls:build"
+            "browserTarget": "chrome-extension-template:build"
           }
         },
         "test": {
@@ -119,16 +119,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "roll20rolls:serve"
+            "devServerTarget": "chrome-extension-template:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "roll20rolls:serve:production"
+              "devServerTarget": "chrome-extension-template:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "roll20rolls"
+  "defaultProject": "chrome-extension-template"
 }
